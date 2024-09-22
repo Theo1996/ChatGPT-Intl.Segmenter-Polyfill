@@ -1,5 +1,5 @@
 Fixes the issue with Firefox ESR 115 and other versions not recognizing the Intl.Segmenter command and breaking the website. 
-**Poor Multi billion company cant make a working website.**
+**Poor Hecking  Multi billion company cant make a working website.**
 Tested on: 91.9.1 and 115 ESR. 
 Use v2.0
 
