@@ -1,0 +1,19 @@
+// ==UserScript==
+// @name         0.1 Intl.Segmenter Polyfill for ChatGPT
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  Fix missing Intl.Segmenter in Firefox ESR
+// @match        https://chatgpt.com/*
+// @grant        none
+// ==/UserScript==
+
+(function() {
+    'use strict';
+    if (!Intl.Segmenter) {
+        Intl.Segmenter = function() {
+            return {
+                segment: () => [{segment: 'fallback'}]
+            };
+        };
+    }
+})();
