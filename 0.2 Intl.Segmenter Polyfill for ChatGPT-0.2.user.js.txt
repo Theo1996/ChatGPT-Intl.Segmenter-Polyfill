@@ -2,7 +2,7 @@
 // @name         0.2 Intl.Segmenter Polyfill for ChatGPT
 // @namespace    http://tampermonkey.net/
 // @version      0.2
-// @description  Fix missing Intl.Segmenter in Firefox ESR
+// @description  Fix missing Intl.Segmenter in Firefox ESR.Poor Hecking Multi billion company cant make a working website
 // @match        https://chatgpt.com/*
 // @grant        none
 // @run-at       document-start
