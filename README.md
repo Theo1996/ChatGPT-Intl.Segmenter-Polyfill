@@ -4,7 +4,7 @@ Use Tampermonkey add-on
 
 Tested on: **91.9.1** and **115 ESR**. 
 
-On **91.9.1**,if it doesnt work, in **Tampermonkey** select in security  settings **"remove CSP"**, .
+On **91.9.1**,if it doesnt work, in **Tampermonkey** select settings, advanced options, in security  settings **"remove CSP"** and hit save.
 
 Use v**2.0**
 
